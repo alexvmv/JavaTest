@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Test4 {
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите значение x:");
         float x = (float) scan.nextDouble();
