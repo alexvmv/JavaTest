@@ -7,9 +7,9 @@ public class Test5 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите первое число:");
-        float x = (float) scan.nextDouble();
+        float x = scan.nextFloat();
         System.out.println("Введите второе число:");
-        float y = (float) scan.nextDouble();
+        float y = scan.nextFloat();
         System.out.println("Введите арифметический оператор (+,-,*,/):");
         String z = scan.next();
         scan.close();

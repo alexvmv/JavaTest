@@ -7,11 +7,11 @@ public class Test4 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите значение x:");
-        float x = (float) scan.nextDouble();
+        float x = scan.nextFloat();
         System.out.println("Введите значение y:");
-        float y = (float) scan.nextDouble();
+        float y = scan.nextFloat();
         System.out.println("Введите значение z:");
-        float z = (float) scan.nextDouble();
+        float z = scan.nextFloat();
         scan.close();
 
         float avg = (x+y+z)/3;
