@@ -51,44 +51,43 @@ public class Test6 {
 
 
 
-            if (x==2) {
-                System.out.println("Выберите единицу измерения: 1 - метр, 2 - миля, 3 - ярд, 4 - фут");
-                z = scan.nextByte();
-                switch (z) {
-                    case 1:
-                        System.out.println("Введите число");
-                        a = scan.nextFloat();
-                        System.out.println("Метры: " + a);
-                        System.out.println("Мили: " + a/1609);
-                        System.out.println("Ярды: " + a*1.094);
-                        System.out.println("Футы: " + a*3.281);
-                        break;
-                    case 2:
-                        System.out.println("Введите число");
-                        a = scan.nextFloat();
-                        System.out.println("Метры: " + a*1609);
-                        System.out.println("Мили: " + a);
-                        System.out.println("Ярды: " + a*1760);
-                        System.out.println("Футы: " + a*5280);
-                        break;
-                    case 3:
-                        System.out.println("Введите число");
-                        a = scan.nextFloat();
-                        System.out.println("Метры: " + a/1.094);
-                        System.out.println("Мили: " + a/1760);
-                        System.out.println("Ярды: " + a);
-                        System.out.println("Футы: " + a*3);
-                        break;
-                    case 4:
-                        System.out.println("Введите число");
-                        a = scan.nextFloat();
-                        System.out.println("Метры: " + a/3.281);
-                        System.out.println("Мили: " + a/5280);
-                        System.out.println("Ярды: " + a/3);
-                        System.out.println("Футы: " + a);
-                        break;
-                }
-
+        if (x==2) {
+            System.out.println("Выберите единицу измерения: 1 - метр, 2 - миля, 3 - ярд, 4 - фут");
+            z = scan.nextByte();
+            switch (z) {
+                case 1:
+                    System.out.println("Введите число");
+                    a = scan.nextFloat();
+                    System.out.println("Метры: " + a);
+                    System.out.println("Мили: " + a/1609);
+                    System.out.println("Ярды: " + a*1.094);
+                    System.out.println("Футы: " + a*3.281);
+                    break;
+                case 2:
+                    System.out.println("Введите число");
+                    a = scan.nextFloat();
+                    System.out.println("Метры: " + a*1609);
+                    System.out.println("Мили: " + a);
+                    System.out.println("Ярды: " + a*1760);
+                    System.out.println("Футы: " + a*5280);
+                    break;
+                case 3:
+                    System.out.println("Введите число");
+                    a = scan.nextFloat();
+                    System.out.println("Метры: " + a/1.094);
+                    System.out.println("Мили: " + a/1760);
+                    System.out.println("Ярды: " + a);
+                    System.out.println("Футы: " + a*3);
+                    break;
+                case 4:
+                    System.out.println("Введите число");
+                    a = scan.nextFloat();
+                    System.out.println("Метры: " + a/3.281);
+                    System.out.println("Мили: " + a/5280);
+                    System.out.println("Ярды: " + a/3);
+                    System.out.println("Футы: " + a);
+                    break;
             }
+        }
     }
 }
