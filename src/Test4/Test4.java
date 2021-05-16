@@ -18,7 +18,7 @@ public class Test4 {
         System.out.println(avg);
 
         double avg2 = Math.floor(avg/2);
-        System.out.println(avg2);
+
         if (avg2>3) {
             System.out.println("Программа выполнена корректно");
         }
