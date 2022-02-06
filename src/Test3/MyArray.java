@@ -6,15 +6,7 @@ public class MyArray {
         int x = myArray[0];
         myArray[0] = myArray[myArray.length - 1];
         myArray[myArray.length - 1] = x;
-
-        if (myArray.length % 2 == 1 && myArray.length != 1) {
-
-            System.out.println(myArray[0]+ myArray[myArray.length / 2]);
-        }
-
-        else {
-            System.out.println("Среднего элемента нет");
-        }
+        System.out.println(myArray[0]+ myArray[myArray.length / 2]);
 
     }
 }
