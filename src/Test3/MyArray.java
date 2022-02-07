@@ -6,7 +6,7 @@ public class MyArray {
         int x = myArray[0];
         myArray[0] = myArray[myArray.length - 1];
         myArray[myArray.length - 1] = x;
-        System.out.println(myArray[0]+ myArray[myArray.length / 2]);
+        System.out.println(myArray[0] + myArray[myArray.length / 2]);
 
     }
 }
