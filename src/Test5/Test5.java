@@ -7,9 +7,9 @@ public class Test5 {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите первое число:");
-        float x = scan.nextFloat();
+        double x = scan.nextFloat();
         System.out.println("Введите второе число:");
-        float y = scan.nextFloat();
+        double y = scan.nextFloat();
         System.out.println("Введите арифметический оператор (+,-,*,/):");
         String z = scan.next();
         scan.close();
@@ -32,6 +32,8 @@ public class Test5 {
                     System.out.println("Деление на ноль");
                 }
                 break;
+            default:
+                System.out.println("Введен некорректный символ арифметической операции");
         }
     }
 }
