@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Test6 {
     public static void main(String[] args) {
-        float a;
-        byte x, y, z;
+        double a;
+        int x, y, z;
         Scanner scan = new Scanner(System.in);
         System.out.println("Выберите что переводить: 1 - масса, 2 - расстояние");
         x = scan.nextByte();
