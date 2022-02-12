@@ -11,6 +11,7 @@ public class Test10 {
         System.out.println("Введите количество столбцов массива");
         length = scan.nextInt();
         int[][] myArray = new int[str][length];
+
         for (int i=0; i<str; i++){
             for (int j=0; j<length; j++){
                 System.out.println("Введите значение элемента "+i+j);
@@ -18,7 +19,7 @@ public class Test10 {
             }
         }
         for (int j=0; j<length; j++) {
-            myArray[0][j] = myArray[0][j] * 3;
+            myArray[0][j] *= 3;
             System.out.println(myArray[0][j]);
         }
     }
