@@ -9,7 +9,7 @@ public class Test7 {
         final int y = 3;
         final int z = 8;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите длину массива");
+        System.out.println("Введите размер массива");
         length = scan.nextInt();
         int[] myArray = new int[length];
         for (int i=0; i<length; i++){
