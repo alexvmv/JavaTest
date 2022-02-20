@@ -26,7 +26,7 @@ public class FinalTest2 {
                 default:
                     System.out.println("Ввод некорректен");
             }
-        } else if (array[2].equals("x")) {99
+        } else if (array[2].equals("x")) {
             value1 = Integer.parseInt(array[0]);
             value2 = Integer.parseInt(array[4]);
             switch (array[1]) {
