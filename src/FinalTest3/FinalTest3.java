@@ -13,7 +13,7 @@ public class FinalTest3 {
             System.out.print("Строка "+ (i + 1) +":");
             array[i] = scan.nextLine();
         }
-        int str = 0;
+        int str;
         int max = 0;
         int index = 0;
 
